@@ -1,9 +1,12 @@
+import Layout from "../../Components/Layout";
+
+
 const MyOrder: React.FC = () => {
     return (
-    <div>
+    <Layout>
         <h3>MyOrder</h3>
 
-    </div>
+    </Layout>
     );
 };
 
