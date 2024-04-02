@@ -12,7 +12,7 @@ public class Item
 
 
 
-     public Item (int id, string name, string description, string brand, decimal price)
+     public Item (string name, string description, string brand, decimal price)
     {
         if(price <= 0)
         {throw new ArgumentException("Price must be above zero");}
@@ -26,7 +26,6 @@ public class Item
        if(string.IsNullOrWhiteSpace(brand))
         {throw new ArgumentException("Brand is required");}
        
-        ID = id;
         Name = name;
         Description = description;
         Brand = brand;
