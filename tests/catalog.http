@@ -1,0 +1,8 @@
+POST http://localhost:5214/api/catalog HTTP/1.1
+Content-Type: application/json
+{
+    "name": "Test",
+    "description":"Description",
+    "brand": "Test Brand",
+    "price": 10.0
+}

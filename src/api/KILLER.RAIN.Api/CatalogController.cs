@@ -32,6 +32,30 @@ namespace Onyx.Drum.Api.Controllers
 
             return Ok(item);
         }
+
+        [HttpPost]
+        public IActionResult CreateItem (Item item)
+        {
+            return CreatedAtAction(nameof(GetItem), new { id = 42}, item);
+        }
+
+        [HttpPost("{id:int}/ratings")]
+        public IActionResult AddRating(int id, Rating rating)
+        {
+            return Ok();
+        }
+
+        [HttpPut("{id:int}")]
+        public IActionResult UpdateItem (int id, Item item)
+        {
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteItem(int id)
+        {
+            return NoContent();
+        }
     }
 }
 
