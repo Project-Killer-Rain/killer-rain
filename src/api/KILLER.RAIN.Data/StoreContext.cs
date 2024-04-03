@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Onyx.Drum.Domain.Catalog;
+using Killer.Rain.Domain.Catalog;
 
-namespace Onyx.Drum.Data;
+namespace Killer.Rain.Data;
 
 public class StoreContext : DbContext
 {

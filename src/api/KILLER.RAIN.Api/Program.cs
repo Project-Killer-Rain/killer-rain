@@ -1,8 +1,17 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
+using Killer.Rain.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
+builder.Services.AddDbContext<StoreContext>(options =>
+{
+    options.UseSqlite("Data Source=../store.db",
+    m => m.MigrationsAssembly("Killer.Rain.Api"));
+});
+
 
 builder.Services.AddSwaggerGen( c =>
 {
