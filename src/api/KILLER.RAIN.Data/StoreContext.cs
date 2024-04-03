@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Killer.Rain.Domain.Catalog;
+using KILLER.RAIN.Domain.Catalog;
 
-namespace Killer.Rain.Data;
+namespace KILLER.RAIN.Data;
 
 public class StoreContext : DbContext
 {
@@ -11,4 +11,11 @@ public class StoreContext : DbContext
     }
 
     public DbSet<Item> Items { get; set;}
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+        DbInitializer.Initialize(builder);
+    }
+
 }

@@ -1,4 +1,4 @@
-namespace Killer.Rain.Domain.Catalog;
+namespace KILLER.RAIN.Domain.Catalog;
 
 public class Rating
 {

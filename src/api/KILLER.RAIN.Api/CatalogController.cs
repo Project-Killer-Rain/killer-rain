@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Killer.Rain.Domain.Catalog;
-using Killer.Rain.Data;
+using KILLER.RAIN.Domain.Catalog;
+using KILLER.RAIN.Data;
 
-namespace Killer.Rain.Api.Controllers
+namespace KILLER.RAIN.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
