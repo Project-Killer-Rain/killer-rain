@@ -1,4 +1,4 @@
-namespace Onyx.Drum.Domain.Catalog;
+namespace KILLER.RAIN.Domain.Catalog;
 
 public class Item
 {
