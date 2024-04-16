@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KILLER.RAIN.Domain", "KILLE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KILLER.RAIN.Data", "KILLER.RAIN.Data\KILLER.RAIN.Data.csproj", "{CA17990C-FD43-40EE-8447-6E7ECF3EB560}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KILLER.RAIN.Domain.Tests", "..\..\tests\KILLER.RAIN.Domain.Tests\KILLER.RAIN.Domain.Tests.csproj", "{68C3A4C0-58CB-41FB-B259-6C96258AAAD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{CA17990C-FD43-40EE-8447-6E7ECF3EB560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA17990C-FD43-40EE-8447-6E7ECF3EB560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA17990C-FD43-40EE-8447-6E7ECF3EB560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C3A4C0-58CB-41FB-B259-6C96258AAAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C3A4C0-58CB-41FB-B259-6C96258AAAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C3A4C0-58CB-41FB-B259-6C96258AAAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C3A4C0-58CB-41FB-B259-6C96258AAAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
