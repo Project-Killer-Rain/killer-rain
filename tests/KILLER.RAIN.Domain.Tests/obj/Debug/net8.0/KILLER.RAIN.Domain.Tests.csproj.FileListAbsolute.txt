@@ -110,3 +110,6 @@ C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\obj\Debug\net8.0\refint\KILLER.RAI
 C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\obj\Debug\net8.0\KILLER.RAIN.Domain.Tests.pdb
 C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\obj\Debug\net8.0\KILLER.RAIN.Domain.Tests.genruntimeconfig.cache
 C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\obj\Debug\net8.0\ref\KILLER.RAIN.Domain.Tests.dll
+C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_KILLER.RAIN.Domain.Tests
+C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\bin\Debug\net8.0\KILLER.RAIN.Domain.dll
+C:\killer-rain\tests\KILLER.RAIN.Domain.Tests\bin\Debug\net8.0\KILLER.RAIN.Domain.pdb
