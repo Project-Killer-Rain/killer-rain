@@ -4,12 +4,23 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using KILLER.RAIN.Data;
 
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(options =>
 {
     options.UseSqlite("Data Source=../store.db",
     m => m.MigrationsAssembly("KILLER.RAIN.Api"));
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:5173")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
 });
 
 
@@ -25,6 +36,8 @@ app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "KILLER RAIN API V1");
 });
+
+app.UseCors();
 
 app.MapControllers();
 
