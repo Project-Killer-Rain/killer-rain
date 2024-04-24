@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IIKCbxZwm56r7ypMrL9tR+swGJ+f16lneqKFBRD1w3LmHFljMGtlXX6LSsWT0H8/SxbwYrE1PQnBEovDIKV7Sw==",
+  "dgSpecHash": "NEFYs5HFJJ53qtPMYGnl1I4oy8+BwO4qvVmpiTrsqYernVcj4T0FWyRQACNHe4/i45b/O2IOka7TqgmzpCNFjg==",
   "success": true,
-  "projectFilePath": "C:\\killer-rain\\tests\\KILLER.RAIN.Domain.Tests\\KILLER.RAIN.Domain.Tests.csproj",
+  "projectFilePath": "C:\\killer-rain-2\\killer-rain\\tests\\KILLER.RAIN.Domain.Tests\\KILLER.RAIN.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisg\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\luisg\\.nuget\\packages\\coverlet.msbuild\\6.0.2\\coverlet.msbuild.6.0.2.nupkg.sha512",
