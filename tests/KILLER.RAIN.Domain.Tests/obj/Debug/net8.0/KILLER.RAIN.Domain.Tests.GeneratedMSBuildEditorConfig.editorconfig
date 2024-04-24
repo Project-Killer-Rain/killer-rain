@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KILLER.RAIN.Domain.Tests
-build_property.ProjectDir = c:\killer-rain\tests\KILLER.RAIN.Domain.Tests\
+build_property.ProjectDir = C:\killer-rain-2\killer-rain\tests\KILLER.RAIN.Domain.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
