@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KILLER.RAIN.Domain.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e86b3828292c6c90ef0e864831d523919770892")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00216b2605aca45165b2ed3a06d4994ce8482611")]
 [assembly: System.Reflection.AssemblyProductAttribute("KILLER.RAIN.Domain.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KILLER.RAIN.Domain.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
